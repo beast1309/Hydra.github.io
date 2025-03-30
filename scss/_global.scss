@@ -1,0 +1,104 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	background-color: #302C42;
+}
+
+a {
+	font-size: 12px;
+	font-weight: 700;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	text-transform: uppercase;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1420px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.btn {
+	color: #343045;
+	min-width: 154px;
+	max-width: 214px;
+	padding: 17px 36px;
+	background: linear-gradient(90deg, #8176AF, #C0B7E8);
+	border-radius: 40px;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	color: #FFFFFF;
+	background: transparent;
+	border: 2px solid #FFFFFF;
+	padding: 15px 34px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
